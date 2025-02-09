@@ -11,15 +11,15 @@ def divider(a, b):
         return a / b
     except Exception as e:
         print(f"Помилка у divider({a}, {b}): {e}")
-        return None  # Повертаємо None, щоб уникнути помилки у списку
+        return None 
 
-# Виправлений словник (видалений некоректний ключ [])
+
 data = {10: 2, 2: 5, "123": 4, 18: 0, 8: 4}
 
 for key, value in data.items():
     try:
         res = divider(key, value)
-        if res is not None:  # Додаємо у список тільки коректні значення
+        if res is not None: 
             result.append(res)
     except Exception as e:
         print(f"Помилка обробки ключа {key}: {e}")
