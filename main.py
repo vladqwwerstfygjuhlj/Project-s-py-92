@@ -10,6 +10,6 @@ class Car:
 car1 = Car("Chevrolet", "Impala", 1967)
 car2 = Car("Buick", "Riviera", 1963)
 
-print(car1.get_info())  # [2020] Toyota Camry
-print(car2.get_info())  # [2022] Tesla Model S
+print(car1.get_info())  
+print(car2.get_info())  
 
